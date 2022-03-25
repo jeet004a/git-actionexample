@@ -1,6 +1,7 @@
-from urllib import response
-from app import app
 import unittest
+from urllib import response
+
+from app import app
 
 
 class FlaskAppTest(unittest.TestCase):
