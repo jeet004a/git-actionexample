@@ -19,7 +19,7 @@ class FlaskAppTest(unittest.TestCase):
     def test_home_status_code(self):
         """Assert that user successfully lands on homepage"""
         tester = app.test_client(self)
-        response = tester.get("/pk")
+        response = tester.get("/ik")
         self.assertEqual(response.status_code, 200)
 
 
