@@ -14,6 +14,11 @@ def index1():
     return "<h1>this is nikhil boot here </h1>"
 
 
+@app.route("/iko")
+def index3():
+    return "<h1>this is nikhil boot here </h1>"
+
+
 # mmfggmffefg
 
 if __name__ == "__main__":
